@@ -33,42 +33,23 @@ if(possuiSorvete) {
 }
 
 
-var ailtonAmaBianca = false
-var ailtonNaoAmaBianca = true
+var possuiSorvete = ""
 
-if(ailtonAmaBianca){
-  console.log("Sim, ele ama muito")
-} else if(ailtonNaoAmaBianca){
-  console.log("Não, ele nunca dá atenção a Bianca. Muito Malvado.")
+if(possuiSorvete){
+  console.log(possuiSorvete)
 } else{
   console.log("Ele odeia Bianca.")
 }
 
-var ailtonAmaBianca = ""
+var possuiSorvete = true
 
-if(ailtonAmaBianca){
-  console.log(ailtonAmaBianca)
+if(!possuiSorvete){
+  console.log("Possui copo e sorvete")
+} else if(possuiSorvete){
+  console.log("Possui cobertura, mas acabou o sorvete e não tem copo")
 } else{
-  console.log("Ele odeia Bianca.")
+  console.log("Não tem nada aqui, fique com fome")
 }
-
-var ailtonAmaBianca = true
-
-if(!ailtonAmaBianca){
-  console.log("Sim, ele ama muito")
-} else if(ailtonAmaBianca){
-  console.log("Não, ele nunca dá atenção a Bianca. Muito Malvado.")
-} else{
-  console.log("Ele odeia Bianca.")
-}
-
-var samuelMeOdeia = true
-
-if(samuelMeOdeia){
-  console.log("Sim, ele odeia")
-} else {
-  console.log("Não, ele é um ótimo melhor amigo")
-} 
 
 
 //o operador lógico de negação é !
